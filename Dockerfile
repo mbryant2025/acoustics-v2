@@ -9,7 +9,15 @@ RUN apt-get update && apt-get install -y \
     nmap \
     tree \
     wget \
-    unzip
+    unzip \
+    # For Logic
+    ffmpeg \
+    libsm6 \
+    libxext6 \
+    libxcb-xinerama0 \
+    libqt5x11extras5 \
+    # For running without display (xvfb-run Logic)
+    xvfb
 
 # Set up the ROS environment variables
 ENV ROS_MASTER_URI=http://<IP_ADDRESS_OF_MAIN_COMPUTER>:11311

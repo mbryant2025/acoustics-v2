@@ -1,0 +1,8 @@
+prefix=/root/dev/acoustics/catkin_ws/install
+
+Name: sample_node
+Description: Description of sample_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

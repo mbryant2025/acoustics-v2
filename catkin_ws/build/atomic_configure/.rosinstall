@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/dev/acoustics/catkin_ws/devel/setup.sh

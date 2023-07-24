@@ -1,0 +1,2 @@
+sample_node
+-DCATKIN_DEVEL_PREFIX=/root/dev/acoustics/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/root/dev/acoustics/catkin_ws/install -G Unix Makefiles
